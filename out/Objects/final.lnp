@@ -1,7 +1,11 @@
 --cpu Cortex-M0
 ".\objects\main.o"
+".\objects\lcd.o"
 ".\objects\adc.o"
-".\objects\systick.o"
+".\objects\init.o"
+".\objects\uart.o"
+".\objects\key.o"
+".\objects\mf52.o"
 ".\objects\startup_lpc11xx.o"
 ".\objects\system_lpc11xx.o"
 --strict --scatter ".\Objects\final.sct"

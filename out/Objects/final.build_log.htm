@@ -22,24 +22,34 @@ Dialog DLL:      TARMCM1.DLL V1.10.0.0
  
 <h2>Project:</h2>
 D:\Jlink\final\out\final.uvprojx
-Project File Date:  05/26/2017
+Project File Date:  06/09/2017
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
-Build target 'final'
-assembling startup_LPC11xx.s...
-compiling system_LPC11xx.c...
+Rebuild target 'final'
 compiling ADC.c...
-compiling Systick.c...
+compiling LCD.c...
+compiling Key.c...
+compiling MF52.c...
+compiling INIT.c...
+INIT.c(2): warning:  #1-D: last line of file ends without a newline
+  #include "INIT.h"
+INIT.c: 1 warning, 0 errors
+compiling Uart.c...
+Uart.c(7): warning:  #1-D: last line of file ends without a newline
+  uint32_t num;  	                    //´®?Ú½????ý¾Ý¸???
+Uart.c: 1 warning, 0 errors
 compiling main.c...
 ..\src\ADC.h(5): warning:  #1-D: last line of file ends without a newline
   #endif
 ..\src\main.c(6): warning:  #1-D: last line of file ends without a newline
   }
 ..\src\main.c: 2 warnings, 0 errors
+assembling startup_LPC11xx.s...
+compiling system_LPC11xx.c...
 linking...
 Program Size: Code=964 RO-data=224 RW-data=4 ZI-data=612  
-".\Objects\final.axf" - 0 Error(s), 2 Warning(s).
+".\Objects\final.axf" - 0 Error(s), 4 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -65,9 +75,9 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.0.0
 
    * Component: Keil::Device:Startup:1.0.0
-      Source file:   Device\Source\system_LPC11xx.c
       Source file:   Device\Source\ARM\startup_LPC11xx.s
-Build Time Elapsed:  00:00:00
+      Source file:   Device\Source\system_LPC11xx.c
+Build Time Elapsed:  00:00:04
 </pre>
 </body>
 </html>

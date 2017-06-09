@@ -388,14 +388,64 @@
           <GroupName>DriverCode</GroupName>
           <Files>
             <File>
+              <FileName>LCD.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\LCD.c</FilePath>
+            </File>
+            <File>
+              <FileName>LCD.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\LCD.h</FilePath>
+            </File>
+            <File>
               <FileName>ADC.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\ADC.c</FilePath>
             </File>
             <File>
-              <FileName>Systick.c</FileName>
+              <FileName>ADC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\ADC.h</FilePath>
+            </File>
+            <File>
+              <FileName>INIT.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Systick.c</FilePath>
+              <FilePath>.\INIT.c</FilePath>
+            </File>
+            <File>
+              <FileName>INIT.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\INIT.h</FilePath>
+            </File>
+            <File>
+              <FileName>Uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>Uart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\Uart.h</FilePath>
+            </File>
+            <File>
+              <FileName>Key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Key.c</FilePath>
+            </File>
+            <File>
+              <FileName>Key.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\Key.h</FilePath>
+            </File>
+            <File>
+              <FileName>MF52.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\MF52.c</FilePath>
+            </File>
+            <File>
+              <FileName>MF52.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\src\MF52.h</FilePath>
             </File>
           </Files>
         </Group>
